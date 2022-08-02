@@ -1,0 +1,38 @@
+# For more information visit:
+# https://goreleaser.com/customization/build/
+builds:
+  - binary: cli-world
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+
+# https://goreleaser.com/customization/release/?h=release
+release:
+  prerelease: auto
+
+# https://goreleaser.com/customization/universalbinaries/?h=universal_binaries
+universal_binaries:
+  - replace: true
+
+# https://goreleaser.com/customization/homebrew/?h=homebrew
+brews:
+  - name: cli-world
+    homepage: https://github.com/devenes/cli-world
+    tap:
+      owner: devenes
+      name: homebrew-cli-world
+      branch: master
+    commit_author:
+      name: devenes
+      email: ahmedenesturan@gmail.com
+
+# https://goreleaser.com/customization/checksum/?h=check
+checksum:
+  name_template: "checksums.txt"
