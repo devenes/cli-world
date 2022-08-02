@@ -9,8 +9,9 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/cli-world?color=56BEB8">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/cli-world?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/cli-world?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/devenes/cli-world?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/cli-world?color=orange">
+  <img alt="License" src="https://img.shields.io/github/license/devenes/cli-world?color=purple">
+  <img alt="Release" src="https://github.com/devenes/cli-world/actions/workflows/release.yml/badge.svg">
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/devenes/cli-world?color=56BEB8" /> -->
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/devenes/cli-world?color=56BEB8" /> -->
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/devenes/cli-world?color=56BEB8" /> -->
