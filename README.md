@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://ordina-jworks.github.io/img/make-your-own-cli-with-golang-and-cobra/banner.jpg" alt="cli-world" />
+  <img src="./cobra.jpeg" alt="cli-world" />
 
   <!-- <a href="https://cli-world.netlify.app">Demo</a> -->
 </div>
