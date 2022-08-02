@@ -30,6 +30,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#books-resources">Resources</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/devenes" target="_blank">Author</a>
 </p>
@@ -75,6 +76,16 @@ go run main.go -o
 git tag -a v0.0.1 -m "First release"
 git push origin v0.0.1
 ```
+
+## :books: Resources
+
+- [Homebrew](https://goreleaser.com/customization/homebrew/?h=homebrew)
+- [Checksum](https://goreleaser.com/customization/checksum/?h=check)
+- [Universal Binaries](https://goreleaser.com/customization/universalbinaries/?h=universal_binaries)
+- [Release](https://goreleaser.com/customization/release/?h=release)
+- [Build](https://goreleaser.com/customization/build/)
+- [Cobra Cli](https://github.com/spf13/cobra)
+- [Cobra Cli](https://youtu.be/IOVBSVox1lM)
 
 ## :memo: License
 
