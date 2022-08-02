@@ -27,7 +27,6 @@ brews:
     homepage: https://github.com/devenes/cli-world
     tap:
       owner: devenes
-      name: homebrew-cli-world
       branch: master
     commit_author:
       name: devenes
