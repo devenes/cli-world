@@ -1,5 +1,5 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+Copyright © 2022 devenes ahmedenesturan@gmail.com
 
 */
 package cmd
@@ -15,12 +15,22 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "cli-world",
 	Short: "A basic CLI application",
-	Long: `A longer description about how to use this application
+	Long: `
+	A longer description about how to use this application
 	For example: cli-world
+	For example: cli-world -o
 	`,
 
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("cli-world called by Devenes")
+		flagVal, err := cmd.Flags().GetBool("othermessage")
+		if err != nil {
+			return
+		}
+		if flagVal {
+			fmt.Println("I like these words better!")
+			return
+		}
+		fmt.Println("Hello World!")
 	},
 }
 
@@ -42,5 +52,5 @@ func init() {
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.Flags().BoolP("othermessage", "o", false, "Toggle the other message")
 }
